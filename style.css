@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+}
+
+.wrapper {
+    width: 300px;
+    margin: 200px auto;
+    text-align: center;
+}
+
+.wrapper div {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.btn {
+    border: 1px solid #3b85e6;
+    border-radius: 6px;
+    color: white;
+    background-color: #3b85e6;
+    text-transform: uppercase;
+    font-size: inherit;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 1px solid #3b85e6;
+    color: #3b85e6;
+    background-color: transparent;
+}
+
+.btn:active {
+    border: 1px solid #0b67e0;
+    background-color: #b3c6df;
+}
+
+.btn:disabled {
+    color: rgb(131, 131, 131);
+    border: 1px solid #555f6d;
+    background-color: #555f6d;
+    cursor: no-drop;
+}
+
+#timeInput {
+    width: 294px;
+    height: 80px;
+    font-size: 4rem;
+    border: 1px solid #3b85e6;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#timerArea {
+    font-size: 4.5rem;
+    color: #0b67e0;
+}
