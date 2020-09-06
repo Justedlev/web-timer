@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Varela Round', sans-serif;
     font-size: 1.5rem;
 }
 
@@ -15,6 +15,7 @@ body {
 }
 
 .btn {
+    font-family: inherit;
     border: 1px solid #3b85e6;
     border-radius: 6px;
     color: white;
@@ -44,6 +45,7 @@ body {
 }
 
 #timeInput {
+    font-family: inherit;
     width: 294px;
     height: 80px;
     font-size: 4rem;
